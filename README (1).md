@@ -39,7 +39,7 @@ Nesta seção, descrevemos o cenário de atuação e a modelagem do agente intel
 ### 4. Arquitetura de Dados e IA
 Definição das fontes de dados e da inteligência por trás da solução.
 
-* **Origem dos Dados:** [Link para dataset no Kaggle/UCI ou descrição da fonte].
+* **Origem dos Dados:** [https://www.kaggle.com/datasets/vikasukani/parkinsons-disease-data-set].
 * **Lógica de IA:** [Redes Neurais e Lógica Fuzzy].
 * **Justificativa:** Por que essa técnica é ideal para este problema específico?
 
