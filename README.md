@@ -37,7 +37,9 @@ E (Environment): Corpo do paciente em ambientes reais e dinâmicos, com variaç�
 A (Actuators): Motores/servomotores controlados por sistema embarcado para aplicar torque compensatório com segurança.
 
 S (Sensors): EMG, IMU, encoders e sensores de torque/corrente para detectar intenção, tremor e garantir controle em malha fechada.
+
 ---
+
 4. Arquitetura de Dados e IA
 Definição das fontes de dados e da inteligência por trás da solução.
 Origem dos Dados: [Link para dataset no Kaggle/UCI ou descrição da fonte].
