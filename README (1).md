@@ -1,18 +1,18 @@
-# Projeto: [Inserir Nome da Solução Inteligente]
+# Projeto: [Agente Inteligente para Parkinson]
 
 ### 1. Identificação do Grupo
-* **Instituição:** Centro Universitário da Fundação Santo André (FSA) / UNICID
-* **Curso:** [Inserir Nome do Curso]
-* **Grupo:** [Inserir Nome ou Número do Grupo]
-* **Integrantes:** * [Nome Completo] - RA: [000000]
-    * [Nome Completo] - RA: [000000]
-    * [Nome Completo] - RA: [000000]
+* **Instituição:** Centro Educacional Fundação Salvador Arena(CEFSA)
+* **Curso:** [ECA 08]
+* **Grupo:** [08]
+* **Integrantes:** * [Leonardo Rodolfo Bortoluci] - RA: [062220014]
+    * [Júlia Rodrigues Lima] - RA: [062220026]
+    * [Gustavo Florêncio Simião] - RA: [061230041]
 
 ---
 
 ### 2. Área Problema Selecionada
 Selecione a trilha tecnológica do projeto (marque com um [x]):
-* [ ] **Saúde 4.0:** Robótica Assistiva (Controladores Inteligentes/Fuzzy)
+* [x] **Saúde 4.0:** Robótica Assistiva (Controladores Inteligentes/Fuzzy)
 * [ ] **Smart Grid:** Eficiência Energética e Descarbonização
 * [ ] **Agtech:** Automação de Precisão e Visão Computacional
 * [ ] **Logística Autônoma:** Coordenação de AGVs e Otimização de Rotas
@@ -22,17 +22,17 @@ Selecione a trilha tecnológica do projeto (marque com um [x]):
 ### 3. Diagnóstico e Definição do Agente
 Nesta seção, descrevemos o cenário de atuação e a modelagem do agente inteligente.
 
-* **Contexto:** [Descrever o setor, ex: Indústria 4.0 ou Gestão de Energia].
-* **Problema:** [Explicar o gargalo ou falha que a IA ajudará a resolver].
-* **Impacto:** [Mencionar o ganho esperado, ex: redução de custos ou aumento de segurança].
+* **Contexto:** [A Saúde 4.0 é a aplicação de tecnologias digitais avançadas — como inteligência artificial, internet das coisas (IoT), big data e telemedicina — no setor da saúde para tornar o atendimento mais eficiente, personalizado e preventivo. Nesse modelo, dispositivos conectados monitoram pacientes em tempo real, dados são analisados para prever doenças e apoiar diagnósticos, e o cuidado deixa de ser apenas reativo (tratar doenças) para se tornar preditivo e contínuo, melhorando a qualidade de vida e otimizando recursos dos sistemas de saúde.].
+* **Problema:** [A Doença de Parkinson é uma doença neurológica progressiva que afeta principalmente o controle dos movimentos. Ela ocorre devido à degeneração de neurônios produtores de dopamina no cérebro. Devido à natureza não linear, dinâmica e incerta dos sistemas biomecânicos humanos, abordagens baseadas em controle clássico apresentam limitações significativas.].
+* **Impacto:** [A aplicação de técnicas de Inteligência Artificial, como Redes Neurais e Lógica Fuzzy, possibilita maior robustez, adaptabilidade e personalização, resultando em melhor desempenho funcional e qualidade de vida do paciente.].
 
 #### Modelagem PEAS (Agente Inteligente)
 | Componente | Descrição |
 | :--- | :--- |
-| **Performance (P)** | Critérios de sucesso (ex: precisão de acerto, kWh economizados). |
-| **Ambiente (E)** | Onde o agente opera (ex: armazém simulado, rede elétrica). |
-| **Atuadores (A)** | Como o agente age (ex: acionamento de motores, válvulas). |
-| **Sensores (S) ** | Como o agente percebe o ambiente (ex: câmeras, sensores de carga). |
+| **Performance (P)** | Reduzir o tremor com precisão, mantendo movimento voluntário, segurança, estabilidade e adaptação em tempo real. |
+| **Ambiente (E)** | Corpo do paciente em ambientes reais e dinâmicos, com variações fisiológicas e interferências externas.|
+| **Atuadores (A)** | Motores/servomotores controlados por sistema embarcado para aplicar torque compensatório com segurança. |
+| **Sensores (S) ** | EMG, IMU, encoders e sensores de torque/corrente para detectar intenção, tremor e garantir controle em malha fechada. |
 
 ---
 
@@ -40,7 +40,7 @@ Nesta seção, descrevemos o cenário de atuação e a modelagem do agente intel
 Definição das fontes de dados e da inteligência por trás da solução.
 
 * **Origem dos Dados:** [Link para dataset no Kaggle/UCI ou descrição da fonte].
-* **Lógica de IA:** [Técnica utilizada: ex: Redes Neurais, Lógica Fuzzy, Busca A*].
+* **Lógica de IA:** [Redes Neurais e Lógica Fuzzy].
 * **Justificativa:** Por que essa técnica é ideal para este problema específico?
 
 ---
