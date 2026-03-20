@@ -32,7 +32,7 @@ Nesta seção, descrevemos o cenário de atuação e a modelagem do agente intel
 | **Performance (P)** | Reduzir o tremor com precisão, mantendo movimento voluntário, segurança, estabilidade e adaptação em tempo real. |
 | **Ambiente (E)** | Corpo do paciente em ambientes reais e dinâmicos, com variações fisiológicas e interferências externas.|
 | **Atuadores (A)** | Motores/servomotores controlados por sistema embarcado para aplicar torque compensatório com segurança. |
-| **Sensores (S) ** | EMG, IMU, encoders e sensores de torque/corrente para detectar intenção, tremor e garantir controle em malha fechada. |
+| **Sensores (S)** | EMG, IMU, encoders e sensores de torque/corrente para detectar intenção, tremor e garantir controle em malha fechada. |
 
 ---
 
