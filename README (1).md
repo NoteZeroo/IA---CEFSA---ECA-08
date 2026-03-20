@@ -39,15 +39,15 @@ Nesta seção, descrevemos o cenário de atuação e a modelagem do agente intel
 ### 4. Arquitetura de Dados e IA
 Definição das fontes de dados e da inteligência por trás da solução.
 
-* **Origem dos Dados:** [https://www.kaggle.com/datasets/vikasukani/parkinsons-disease-data-set].
-* **Lógica de IA:** [Redes Neurais e Lógica Fuzzy].
-* **Justificativa:** Por que essa técnica é ideal para este problema específico?
+* **Origem dos Dados:** [Parkinson Disease Detection].
+* **Lógica de IA:** [Controladores Inteligentes/Fuzzy].
+* **Justificativa:** Essa técnica — combinando Redes Neurais e controle inteligente — é ideal para esse problema porque a Doença de Parkinson envolve sinais motores altamente não lineares, variáveis e cheios de ruído, o que dificulta o uso de métodos tradicionais com parâmetros fixos. As Redes Neurais conseguem aprender padrões complexos dos sinais (como diferenciar tremor de movimento voluntário), enquanto técnicas como Lógica Fuzzy ou controle adaptativo permitem gerar respostas suaves e graduais, mais próximas do comportamento humano. Além disso, essas abordagens se adaptam ao paciente ao longo do tempo, acompanhando a progressão da doença, o que torna o sistema mais robusto, personalizado e eficaz em situações reais.
 
 ---
 
 ### 5. Plano de Tratamento de Dados (ETL)
 O fluxo de processamento dos dados segue estas etapas:
-1. **Extração:** Coleta de dados via arquivos [CSV/JSON] ou simulação.
+1. **Extração:** Coleta de dados via arquivos [Parkinsson disease.csv] ou simulação.
 2. **Transformação:** Limpeza de nulos, normalização e engenharia de atributos.
 3. **Carga:** Disponibilização dos dados para o treinamento do modelo de IA.
 
